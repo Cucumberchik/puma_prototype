@@ -1,0 +1,473 @@
+/* =========header======= */
+.news{
+    height: 30px;
+    background: rgba(138,115,80);
+
+h3{
+    font-weight: 600;
+    font-size: 17px;
+    color: white
+    ;
+}
+}
+.header{
+    z-index: 20;
+    position: fixed;
+    img{
+        width: 120px;
+    }
+}
+.header_navigate{
+    
+    width: 100%;
+    background: rgb(19, 19, 19);
+    height: 60px;
+}
+nav{
+    width: 500px;  
+    a{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+.nav_search{
+    background: none;
+    border: 1px solid rgb(112, 112, 112);
+    padding: 2px 6px;
+    input{
+        background: none;
+        color: white;
+        width: 200px;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+    }
+}
+
+.active{
+    color: rgb(207, 5, 5);
+}
+/* =========❊Home❊========= */
+.home{
+    padding-top: 60px;
+}
+.home_title_img{
+background: rgba(0, 0, 0, 0.74);
+}
+.home_title{
+    
+    position: absolute;
+    top: 210px;
+    h1{
+        font-size: 50px;
+        color: rgb(255, 169, 169);
+    }
+    h2{
+        margin-top: 2px;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+    }
+    button{
+        transition: 0.3s;
+        border: 1px solid rgb(117, 117, 117);
+        padding: 8px 15px;
+        color: rgb(190, 190, 190);
+        background: none;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 20px;
+        background: rgba(12, 12, 12, 0.61);
+    }
+    button:hover{
+        color:  white;
+        border: 1px solid rgb(216, 216, 216);
+    }
+}
+.home_title_{
+    position: absolute;
+    left: 100px;
+    h1{
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+    }
+    h2{
+        margin-top: 2px;
+        font-size: 40px;
+        color: rgb(187, 187, 187);
+    }
+    button{
+        transition: 0.3s;
+        border: 1px solid rgb(117, 117, 117);
+        padding: 8px 15px;
+        color: rgb(190, 190, 190);
+        background: none;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 20px;
+        background: rgba(12, 12, 12, 0.61);
+    }
+    button:hover{
+        color:  white;
+        border: 1px solid rgb(216, 216, 216);
+    }
+}
+.range{
+    padding: 5px  5px 5px;
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+.element_title{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 420px;
+    width: 340px;
+    border: 2px solid rgba(104, 104, 104, 0);
+    
+}
+.element_title:hover{
+    border: 2px solid rgb(54, 54, 54);
+}
+.element_link{
+    img{
+        width: 330px;
+    }
+}
+.element_titles{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    h3{
+        font-weight: 500;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 21px;
+        color: rgb(34, 34, 34);
+    }
+}
+.element_price{
+    width: 30px;
+}
+.element_name{
+    width: 250px;
+}
+/* ==========♕---Admin---♕======== */
+.admin{
+padding-top: 70px;
+display: flex;
+align-items: center;
+flex-direction: column ;
+margin-bottom: 40px;
+}
+.admin_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px ;
+    button{
+        font-size: 20px;
+        font-weight: 500;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        width: 210px;
+        height: 30px;
+        background: none;
+    }
+    button:hover{
+        color: white;
+        background: black;
+    }
+    
+}
+.admin_page{
+    padding: 10px;
+    margin-top: 10px;
+    border: 4px solid black;
+}
+.add_product_inputs{
+    
+    input{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        padding: 0 10px;
+        width: 260px;
+        height: 30px;
+    }
+}
+.add_product{
+    button{
+        margin-bottom: 10px;
+        background:none;
+        border: 1px solid black;
+        width: 180px;
+        color:  rgb(0, 0, 0);
+        font-size: 18px;
+        height: 30px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+    }
+    button:hover{
+        background: rgba(0, 0, 0, 0.493);
+        color:  white;
+    }  
+}
+/* ==========Orders========= */
+.orders{
+    padding-top: 40px;
+}
+/* ============likest======== */
+.likest{
+    padding-top: 50px;
+}
+/* ===========Contacts========= */
+.contacts{
+    height: 460px;
+    background: rgb(24, 24, 24) ;
+    
+    p{
+        font-size: 19px;
+        font-weight: 400;
+        transition: 0.2s;
+        color: rgb(173, 173, 173);
+    }
+    h1{
+        font-size:  23px;
+
+        color: white;
+    }
+    h2{
+        color: white;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+    h3{
+        color: white;
+        font-weight: 400;
+    }
+    p:hover{
+        color: rgb(255, 255, 255);
+    }
+}
+.contacts_support{
+    padding: 0 40px;
+    gap: 30px;
+    margin-right: 10px;
+}
+.contacts_explore_app{
+    width: 90px;
+    height: 90px;   
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.contacts_explore{
+    width: 200px;
+}
+/* ========--Detail--====== */
+.details{
+    padding-top: 120px;
+}
+.detail_{
+    display: flex;
+}
+.detail_title{
+    width: 550px;
+    margin-top: 10px;
+    h1{
+        color: rgb(26, 26, 26);
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 500;
+        font-family:Arial, Helvetica, sans-serif;
+        color: rgb(51, 51, 51);
+    }
+    p{
+        img{
+            width: 80px;
+        }
+    }
+}
+.detail_images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 830px;
+    img{
+        margin-bottom: 10px;
+        width: 400px;
+    }
+}
+/* ========Windows======= */
+.check_pass_admin{
+    border: 2px solid rgb(182, 182, 182);
+    z-index: 10;
+    top: 100px;
+    width: 700px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(10px);
+}
+.pass_admin_page{
+    padding: 10px;
+}
+
+.pass_admin_page_value{
+    gap: 20px;
+    h1{
+        font-size: 60px;
+        font-weight: 500;
+        color: rgb(206, 206, 206);
+        letter-spacing: 0.2px;
+    }
+    input{
+        background: none;
+        width: 230px;
+        padding: 3px 4px;
+    }
+    input::placeholder{
+        font-size: 17px;
+        color:  white;
+    }
+    button{
+        margin-top: 10px;
+    }
+    p{
+        font-weight: 600;
+        color: rgb(190, 220, 252);
+    }
+    p:hover{
+        text-decoration: underline;
+    }
+}
+
+/* ========Global Teg======= */
+a{
+    text-decoration: none;
+}
+.g{
+    gap:10px
+}
+a, p, button, .c-p{
+    cursor: pointer;
+}
+input{
+    outline: none;
+}
+/* ========---Error---======= */
+.error_check{
+    width: 210px;
+    height: 30px;
+    background: red;
+    color: white;
+}
+/* =======Speed Style========*/
+.w{
+    width: 100%;
+}
+.br-2px-s-bl{
+    border: 2px solid black;
+}
+.w100-h100{
+    width: 100%;
+    height: 100%;
+}
+.p-a{
+    position: absolute;
+}
+.tr-02{
+    transition: 0.2s;
+    
+}
+.i{
+    opacity: 0.4;
+}
+.d{
+    display: flex;
+    align-items: flex-end;
+}
+.d-f-a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.d-f_a{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: flex-start;
+}
+.d-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-f-f{
+    display: flex;
+    flex-direction: column;
+}
+.d-f_j-c_a-e{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.i-n{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+.i-n:hover{
+    background: rgb(71, 71, 71);
+}
+.btn-st{
+    button{
+        background:none;
+        border: 1px solid black;
+        width: 80px;
+        color:  rgb(0, 0, 0);
+        font-size: 18px;
+        height: 30px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+    }
+    button:hover{
+        background: rgba(0, 0, 0, 0.493);
+        color:  white;
+    }
+}
+/* =============Testing======== */
+.enter{
+    position: absolute;
+    animation: enter 4s infinite;
+}
+@keyframes enter {
+    from{
+        left: 1200px;
+        opacity: 0;
+    }
+    20%, 80%{
+        opacity: 1;
+        left: 590px;
+    }
+    10%, 90%{
+        opacity: 0;
+    }
+    to{
+        opacity: 0;
+        left: 0px;
+    }
+}
+.valueisnot{
+    animation: falsePass 0.2s ease;
+}
+@keyframes falsePass {
+    20%, 40%, 60%, 80%{
+        margin-left: 10px;
+    }
+    0%, 10%, 30%, 70%, 100%{
+        margin-left: 0px;
+    }
+}
